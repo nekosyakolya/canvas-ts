@@ -2,9 +2,13 @@ module.exports =
 {
     script: 
     {
-        files: ['src/**/*.*'],
-        tasks: ['spell', 'tslint', 'ts', 'cssmin', 'react', 'uglify:js',
-    'uglify:jsx', 'hashres:prod', 'copy:main']
+        files: ['src/**/*.ts', 'src/**/*.jsx'],
+        tasks: ['shell', 'tslint', 'ts', 'react', 'uglify:js', 'uglify:jsx', 'hashres:prod']
+    },
+    css:
+    {
+        files: ['src/**/*.css'],
+        tasks: ['shell', 'cssmin', 'hashres:prod']
     },
     html:
     {
@@ -13,6 +17,6 @@ module.exports =
             livereload: true
         },
         files: 'index.html',
-        tasks: 'copy:main'
+        tasks: 'copy:html'
     }
 };

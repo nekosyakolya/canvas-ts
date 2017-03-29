@@ -26,13 +26,18 @@ module.exports =
                         cwd: 'node_modules/bootstrap/dist/css',
                         src: 'bootstrap.min.css',
                         dest: '.build/css'
-                    },
+                    }
+                ]
+            },
+    html:
+    {
+      files: [
                     {
                         expand: true,
                         cwd: '',
                         src: 'index.html',
                         dest: '.build/'
                     }
-                ]
-            }
+             ]
+    }
 };

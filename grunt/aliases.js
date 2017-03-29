@@ -1,5 +1,5 @@
 module.exports =
 {
-    'default': ['clean', 'spell', 'tslint', 'ts', 'cssmin', 'react', 'uglify:js',
-    'uglify:jsx', 'hashres:prod', 'copy:main', 'connect', 'watch']
+    'default': ['clean', 'shell', 'tslint', 'ts', 'cssmin', 'react', 'uglify:js',
+    'uglify:jsx', 'hashres:prod', 'copy:main', 'copy:html', 'connect', 'watch']
 };
