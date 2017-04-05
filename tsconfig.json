@@ -4,14 +4,6 @@
         "module": "system",
         "noImplicitAny": true,
         "removeComments": true,
-        "preserveConstEnums": true,
-        "outFile": "js/main.js"
-    },
-    "include": [
-        "ts/*.ts"
-    ],
-    "exclude": [
-        "node_modules",
-        "**/*.spec.ts"
-    ]
+        "preserveConstEnums": true
+    }
 }
