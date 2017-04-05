@@ -1,9 +1,7 @@
 module.exports =
 {
-    options: {
-            stderr: false
-        },
-        target: {
-            command: 'cspell src/**/*.*'
-        }
+    target:
+    {
+        command: 'cspell src/**/*.*'
+    }
 };

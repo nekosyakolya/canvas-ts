@@ -29,7 +29,7 @@
 
 .main-content
 {
-    padding: 30px 30px 106px;
+    padding: 30px 30px 130px;
     background: radial-gradient(circle farthest-corner at 100px 50px, #00223d, #f1f8fe);
 }
 
@@ -46,8 +46,8 @@
 }
 
 .canvas
-{  
-    background-color: #000;
+{
+    background-color: #fff;
     border: 1px solid #00223d;
     box-shadow: 0 0 15px #00223d;
     float: left;
